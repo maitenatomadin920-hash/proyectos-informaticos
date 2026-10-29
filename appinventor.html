@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto App Inventor</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header class="barra">
+        <div class="marca">
+            <span>📱</span>
+            <strong>APP INVENTOR</strong>
+        </div>
+        <nav>
+            <a href="seleccion.html">Inicio</a>
+            <a href="#app">Aplicación</a>
+            <a href="#desarrollador">Desarrollador</a>
+        </nav>
+    </header>
+
+    <main class="pagina-proyecto">
+
+        <section class="hero">
+
+            <div class="texto-hero">
+                <span class="etiqueta verde">APLICACIÓN MÓVIL</span>
+                <h1>Mi aplicación</h1>
+                <p>Una aplicación creada mediante MIT App Inventor, combinando diseño visual y programación por bloques.</p>
+                <button class="boton-principal verde-boton" onclick="mostrarMensaje()">ABRIR APLICACIÓN</button>
+            </div>
+
+            <!-- CELULAR -->
+            <div class="celular" id="app">
+                <div class="parlante"></div>
+                <div class="pantalla">
+                    <div class="app-header">Mi App</div>
+                    <div class="app-contenido">
+                        <div class="app-icono">🚀</div>
+                        <h2>¡Bienvenido!</h2>
+                        <p id="mensajeApp">Presioná el botón para comenzar.</p>
+                        <button onclick="mostrarMensaje()">COMENZAR</button>
+                        <button class="boton-secundario" onclick="mostrarInfo()">INFORMACIÓN</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <div class="info-card">
+                <h2>📱 Sobre la aplicación</h2>
+                <p>Esta aplicación fue desarrollada utilizando MIT App Inventor. El diseño y la programación permiten crear una aplicación interactiva.</p>
+            </div>
+
+            <div class="info-card" id="desarrollador">
+                <h2>👨‍💻 Desarrollador</h2>
+                <p><strong>Nombre:</strong> Iván Mazza</p>
+                <p><strong>Curso:</strong> 3er año</p>
+                <p><strong>Modalidad:</strong> Informática</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto realizado con App Inventor 💚</p>
+        <a href="seleccion.html">← Volver a proyectos</a>
+    </footer>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensajeApp").innerHTML = "🎉 ¡Aplicación iniciada!";
+        }
+        function mostrarInfo() {
+            document.getElementById("mensajeApp").innerHTML = "Aplicación desarrollada con MIT App Inventor.";
+        }
+    </script>
+
+</body>
+</html>

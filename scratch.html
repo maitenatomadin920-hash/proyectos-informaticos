@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Scratch</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header class="barra">
+        <div class="marca">
+            <span>🎮</span>
+            <strong>PROYECTO SCRATCH</strong>
+        </div>
+        <nav>
+            <a href="seleccion.html">Inicio</a>
+            <a href="#proyecto">Proyecto</a>
+            <a href="#desarrollador">Desarrollador</a>
+        </nav>
+    </header>
+
+    <main class="pagina-proyecto">
+
+        <section class="hero">
+
+            <div class="texto-hero">
+                <span class="etiqueta">PROYECTO ESCOLAR</span>
+                <h1>Mi juego en Scratch</h1>
+                <p>Un proyecto realizado utilizando programación por bloques, personajes, escenarios y eventos.</p>
+                <button class="boton-principal" onclick="iniciarJuego()">▶ INICIAR JUEGO</button>
+            </div>
+
+            <div class="ventana-juego" id="proyecto">
+                <div class="barra-ventana">
+                    <span>●</span><span>●</span><span>●</span>
+                    <b>Mi juego</b>
+                </div>
+                <div class="juego">
+                    <div class="personaje">🐱</div>
+                    <h2>MI JUEGO</h2>
+                    <p id="mensaje">Presioná "Iniciar juego"</p>
+                    <button onclick="iniciarJuego()">COMENZAR</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <div class="info-card">
+                <h2>🎮 Sobre el proyecto</h2>
+                <p>Este juego fue creado utilizando Scratch. Se utilizaron personajes, escenarios, sonidos y bloques de programación.</p>
+            </div>
+
+            <div class="info-card" id="desarrollador">
+                <h2>👨‍💻 Desarrollador</h2>
+                <p><strong>Nombre:</strong> Iván Mazza</p>
+                <p><strong>Curso:</strong> 3er año</p>
+                <p><strong>Modalidad:</strong> Informática</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto realizado con Scratch 💜</p>
+        <a href="seleccion.html">← Volver a proyectos</a>
+    </footer>
+
+    <script>
+        function iniciarJuego() {
+            document.getElementById("mensaje").innerHTML = "🎉 ¡El juego comenzó!";
+        }
+    </script>
+
+</body>
+</html>
