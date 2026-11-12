@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" role="img" aria-label="Iván con la remera de Informática">
+<defs><clipPath id="body"><path d="M92 330 Q200 292 308 330 L330 520 L70 520 Z"/></clipPath></defs>
+<g stroke="#4a2a1a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+<!-- brazo derecho (del lector: izquierda) con mano en la cadera -->
+<path d="M96 338 Q52 372 44 440 Q42 478 78 486 L112 480 L124 440 Z" fill="#c78a5c"/>
+<!-- brazo izquierdo colgando -->
+<path d="M304 338 Q348 372 356 440 Q358 490 340 520 L296 520 L282 440 Z" fill="#c78a5c"/>
+<!-- cuello -->
+<path d="M170 250 L170 312 Q200 334 230 312 L230 250 Z" fill="#b3764b"/>
+<!-- remera -->
+<path d="M92 330 Q200 292 308 330 L330 520 L70 520 Z" fill="#f8f9fc"/>
+<!-- mangas -->
+<path d="M92 330 Q58 346 40 392 L98 414 Q118 384 128 350 Z" fill="#f8f9fc"/>
+<path d="M308 330 Q342 346 360 392 L302 414 Q282 384 272 350 Z" fill="#f8f9fc"/>
+<!-- puños verde agua -->
+<path d="M40 392 L98 414 L90 440 L32 418 Z" fill="#2fa3a8"/>
+<path d="M360 392 L302 414 L310 440 L368 418 Z" fill="#2fa3a8"/>
+<!-- cuello polo -->
+<path d="M160 306 L200 352 L186 300 Z" fill="#2fa3a8"/>
+<path d="M240 306 L200 352 L214 300 Z" fill="#2fa3a8"/>
+<path d="M200 352 L200 410" fill="none"/>
+<circle cx="200" cy="372" r="4" fill="#fff" stroke-width="3"/><circle cx="200" cy="394" r="4" fill="#fff" stroke-width="3"/>
+<!-- mano en la cadera -->
+<ellipse cx="104" cy="480" rx="26" ry="17" fill="#c78a5c"/>
+<!-- orejas -->
+<ellipse cx="108" cy="190" rx="16" ry="22" fill="#c78a5c"/><ellipse cx="292" cy="190" rx="16" ry="22" fill="#c78a5c"/>
+<path d="M104 190 Q110 184 112 196" fill="none" stroke-width="3"/><path d="M296 190 Q290 184 288 196" fill="none" stroke-width="3"/>
+<!-- cara -->
+<path d="M112 160 Q112 262 200 270 Q288 262 288 160 Q288 90 200 90 Q112 90 112 160Z" fill="#c78a5c"/>
+<!-- pelo -->
+<path d="M104 188 Q82 110 134 76 Q176 42 232 54 Q300 62 308 128 Q314 160 296 196 Q292 150 270 126 Q248 148 206 138 Q168 148 140 128 Q118 150 118 190 Z" fill="#26373a"/>
+<path d="M150 70 Q132 60 120 74" fill="none" stroke="#26373a" stroke-width="10"/>
+<path d="M152 92 Q170 76 192 78 M226 72 Q252 74 266 92" fill="none" stroke="#5b7276" stroke-width="4"/>
+<!-- cejas -->
+<path d="M150 158 Q164 150 178 156 M222 156 Q236 150 250 158" fill="none" stroke-width="5"/>
+<!-- ojos -->
+<ellipse cx="164" cy="184" rx="13" ry="16" fill="#4a2a1a"/><ellipse cx="236" cy="184" rx="13" ry="16" fill="#4a2a1a"/>
+<circle cx="160" cy="178" r="5" fill="#fff" stroke="none"/><circle cx="232" cy="178" r="5" fill="#fff" stroke="none"/>
+<!-- cachetes -->
+<ellipse cx="140" cy="218" rx="18" ry="11" fill="#e0705e" stroke="none" opacity=".6"/><ellipse cx="260" cy="218" rx="18" ry="11" fill="#e0705e" stroke="none" opacity=".6"/>
+<!-- nariz y sonrisa -->
+<path d="M198 204 Q200 208 203 204" fill="none" stroke-width="3"/>
+<path d="M172 228 Q200 256 228 228 Q200 238 172 228Z" fill="#fff" stroke-width="4"/>
+<!-- logo en la remera -->
+<g transform="translate(244 376)"><circle r="20" fill="#fff" stroke-width="3.5"/><path d="M-8 -6 L-14 0 L-8 6 M8 -6 L14 0 L8 6 M3 -9 L-3 9" fill="none" stroke="#2fa3a8" stroke-width="4"/></g>
+</g>
+<text transform="translate(150 505) rotate(-90)" font-family="Trebuchet MS,Arial,sans-serif" font-weight="900" font-size="15" letter-spacing="2" fill="#2fa3a8">INFORMÁTICA</text>
+</svg>
